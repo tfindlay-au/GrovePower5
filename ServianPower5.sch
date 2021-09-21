@@ -21,6 +21,8 @@ F 0 "J1" H 1507 4517 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1507 4426 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 1550 3650 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1550 3650 50  0001 C CNN
+F 4 "1.81" H 1400 3650 50  0001 C CNN "Cost"
+F 5 "USB4110-GF-A" H 1400 3650 50  0001 C CNN "Man Part No"
 	1    1400 3650
 	1    0    0    -1  
 $EndComp
@@ -36,6 +38,7 @@ F 4 "A" H 10200 3750 50  0001 L BNN "PARTREV"
 F 5 "Manufacturer Recommendations" H 10200 3750 50  0001 L BNN "STANDARD"
 F 6 "8.1mm" H 10200 3750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 F 7 "Seeed Technology" H 10200 3750 50  0001 L BNN "MANUFACTURER"
+F 8 "3.38" H 10200 3750 50  0001 C CNN "Cost"
 	1    10200 3750
 	1    0    0    -1  
 $EndComp
@@ -47,6 +50,8 @@ F 0 "U1" H 4600 4217 50  0000 C CNN
 F 1 "TPS63002" H 4600 4126 50  0000 C CNN
 F 2 "Package_SON:Texas_DRC0010J_ThermalVias" H 5450 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps63000.pdf" H 4300 4100 50  0001 C CNN
+F 4 "3.25" H 4600 3550 50  0001 C CNN "Cost"
+F 5 "TPS63002DRCR" H 4600 3550 50  0001 C CNN "Man Part No"
 	1    4600 3550
 	1    0    0    -1  
 $EndComp
@@ -109,7 +114,9 @@ P 3650 4150
 F 0 "C2" H 3765 4196 50  0000 L CNN
 F 1 "0.1uf" H 3765 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 4000 50  0001 C CNN
-F 3 "~" H 3650 4150 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3650 4150 50  0001 C CNN
+F 4 "0.311" H 3650 4150 50  0001 C CNN "Cost"
+F 5 "C0603C104K4RACTU" H 3650 4150 50  0001 C CNN "Man Part No"
 	1    3650 4150
 	1    0    0    -1  
 $EndComp
@@ -155,8 +162,10 @@ P 3200 4150
 F 0 "C1" H 3315 4196 50  0000 L CNN
 F 1 "10uf" H 3315 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3238 4000 50  0001 C CNN
-F 3 "~" H 3200 4150 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf" H 3200 4150 50  0001 C CNN
 F 4 "ceramic capacitor" H 3200 4150 50  0001 C CNN "Type"
+F 5 "0.662" H 3200 4150 50  0001 C CNN "Cost"
+F 6 "C0603C106M8PAC7411" H 3200 4150 50  0001 C CNN "Man Part No"
 	1    3200 4150
 	1    0    0    -1  
 $EndComp
@@ -170,9 +179,11 @@ L Device:R R1
 U 1 1 6148DDB1
 P 3650 3650
 F 0 "R1" H 3720 3696 50  0000 L CNN
-F 1 "100Ohm" H 3720 3605 50  0000 L CNN
+F 1 "100 Ohm" H 3720 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 3650 50  0001 C CNN
-F 3 "~" H 3650 3650 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf" H 3650 3650 50  0001 C CNN
+F 4 "0.702" H 3650 3650 50  0001 C CNN "Cost"
+F 5 "RT0201FRE07100RL" H 3650 3650 50  0001 C CNN "Man Part No"
 	1    3650 3650
 	1    0    0    -1  
 $EndComp
@@ -192,7 +203,9 @@ P 5200 4150
 F 0 "C3" H 5315 4196 50  0000 L CNN
 F 1 "10uf" H 5315 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 4000 50  0001 C CNN
-F 3 "~" H 5200 4150 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf" H 5200 4150 50  0001 C CNN
+F 4 "0.662" H 5200 4150 50  0001 C CNN "Cost"
+F 5 "C0603C106M8PAC7411 " H 5200 4150 50  0001 C CNN "Man Part No"
 	1    5200 4150
 	1    0    0    -1  
 $EndComp
@@ -203,7 +216,9 @@ P 5450 4150
 F 0 "C4" H 5565 4196 50  0000 L CNN
 F 1 "10uf" H 5565 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 4000 50  0001 C CNN
-F 3 "~" H 5450 4150 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf" H 5450 4150 50  0001 C CNN
+F 4 "0.662" H 5450 4150 50  0001 C CNN "Cost"
+F 5 "C0603C106M8PAC7411" H 5450 4150 50  0001 C CNN "Man Part No"
 	1    5450 4150
 	1    0    0    -1  
 $EndComp
@@ -249,8 +264,9 @@ P 4600 2750
 F 0 "L1" V 4790 2750 50  0000 C CNN
 F 1 "2.2uH" V 4699 2750 50  0000 C CNN
 F 2 "Inductor_SMD:L_6.3x6.3_H3" H 4600 2750 50  0001 C CNN
-F 3 "~" H 4600 2750 50  0001 C CNN
-F 4 "Pref VLS4012HBX-2R2M or similar" V 4600 2750 50  0001 C CNN "Field4"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls4012hbx_en.pdf" H 4600 2750 50  0001 C CNN
+F 4 "1.07" V 4600 2750 50  0001 C CNN "Cost"
+F 5 "VLS4012HBX-2R2M" V 4600 2750 50  0001 C CNN "Man Part No"
 	1    4600 2750
 	0    -1   -1   0   
 $EndComp
@@ -279,6 +295,8 @@ F 0 "U2" H 7850 4531 50  0000 C CNN
 F 1 "FT201XQ" H 7850 4440 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm" H 9200 3050 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT201X.pdf" H 7850 3650 50  0001 C CNN
+F 4 "2.89" H 7850 3650 50  0001 C CNN "Cost"
+F 5 "FT201XQ-R" H 7850 3650 50  0001 C CNN "Man Part No"
 	1    7850 3650
 	1    0    0    -1  
 $EndComp
@@ -334,8 +352,10 @@ P 7050 4250
 F 0 "C5" H 7165 4296 50  0000 L CNN
 F 1 "100nF" H 7165 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 4100 50  0001 C CNN
-F 3 "~" H 7050 4250 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/specsheets/Kemet_03192021_C0603C104K5RAC3121.pdf" H 7050 4250 50  0001 C CNN
 F 4 "ceramic capacitor" H 7050 4250 50  0001 C CNN "Type"
+F 5 "0.203" H 7050 4250 50  0001 C CNN "Cost"
+F 6 "C0603C104K5RAC3121 " H 7050 4250 50  0001 C CNN "Man Part No"
 	1    7050 4250
 	1    0    0    -1  
 $EndComp
@@ -351,7 +371,9 @@ P 6750 3450
 F 0 "R2" V 6543 3450 50  0000 C CNN
 F 1 "27R" V 6634 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 3450 50  0001 C CNN
-F 3 "~" H 6750 3450 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 6750 3450 50  0001 C CNN
+F 4 "0.135" V 6750 3450 50  0001 C CNN "Cost"
+F 5 "RC0201FR-0727RL" V 6750 3450 50  0001 C CNN "Man Part No"
 	1    6750 3450
 	0    1    1    0   
 $EndComp
@@ -364,7 +386,9 @@ P 6750 3550
 F 0 "R3" V 6543 3550 50  0000 C CNN
 F 1 "27R" V 6634 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 3550 50  0001 C CNN
-F 3 "~" H 6750 3550 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 6750 3550 50  0001 C CNN
+F 4 "0.135" V 6750 3550 50  0001 C CNN "Cost"
+F 5 "RC0201FR-0727RL" V 6750 3550 50  0001 C CNN "Man Part No"
 	1    6750 3550
 	0    1    1    0   
 $EndComp
@@ -381,9 +405,11 @@ L Device:R R4
 U 1 1 6149EFC4
 P 9450 3450
 F 0 "R4" H 9520 3496 50  0000 L CNN
-F 1 "1000" H 9520 3405 50  0000 L CNN
+F 1 "1k Ohms" H 9520 3405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 3450 50  0001 C CNN
-F 3 "~" H 9450 3450 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 9450 3450 50  0001 C CNN
+F 4 "0.135" H 9450 3450 50  0001 C CNN "Cost"
+F 5 "RC0201FR-071KL" H 9450 3450 50  0001 C CNN "Man Part No"
 	1    9450 3450
 	1    0    0    -1  
 $EndComp
@@ -392,9 +418,11 @@ L Device:R R5
 U 1 1 6149F95D
 P 9650 3450
 F 0 "R5" H 9720 3496 50  0000 L CNN
-F 1 "1000" H 9720 3405 50  0000 L CNN
+F 1 "1k Ohms" H 9720 3405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9580 3450 50  0001 C CNN
-F 3 "~" H 9650 3450 50  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 9650 3450 50  0001 C CNN
+F 4 "RC0201FR-071KL " H 9650 3450 50  0001 C CNN "Man Part No"
+F 5 "0.135" H 9650 3450 50  0001 C CNN "Cost"
 	1    9650 3450
 	1    0    0    -1  
 $EndComp
