@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC
+"10uF","C1,C3,C4","Capacitor_SMD:C_0603_1608Metric","C599662"
+"0.1uF","C2,C5","Capacitor_SMD:C_0603_1608Metric","C2169243"
+"USB_C_Receptacle_USB2.0","J1","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","C165948"
+"114020164","J2","Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal","C604849"
+"2.2uH","L1","Inductor_SMD:L_6.3x6.3_H3","C2047713"
+"100 Ohm","R1","Resistor_SMD:R_0603_1608Metric","C105588"
+"27R","R2,R3","Resistor_SMD:R_0603_1608Metric","C137753"
+"1k Ohm","R4,R5","Resistor_SMD:R_0603_1608Metric","C22548"
+"5.1k Ohm","R6,R7","Resistor_SMD:R_0603_1608Metric","C105580"
+"TPS63002","U1","Package_SON:Texas_DRC0010J_ThermalVias","C116655"
+"FT201XQ","U2","Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm","C2651887"
