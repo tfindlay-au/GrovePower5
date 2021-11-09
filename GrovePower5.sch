@@ -273,7 +273,8 @@ F 5 "VLS4012HBX-2R2M" V 4600 2750 50  0001 C CNN "Mfr.Part#"
 F 6 "TDK" V 4600 2750 50  0001 C CNN "Mfr"
 F 7 "C2047713" V 4600 2750 50  0001 C CNN "LCSC"
 F 8 "Unknown" V 4600 2750 50  0001 C CNN "Package"
-F 9 "- Inductors (SMD) ROHS" V 4600 2750 50  0001 C CNN "Description"
+F 9 "- Inductors (SMD) ROHS
+" V 4600 2750 50  0001 C CNN "Description"
 F 10 "810-VLS4012HBX-2R2M" V 4600 2750 50  0001 C CNN "Mouser"
 	1    4600 2750
 	0    -1   -1   0   
@@ -765,7 +766,7 @@ Wire Wire Line
 Text Notes 10600 7650 0    50   ~ 0
 0.1
 Text Notes 7400 7500 0    79   ~ 0
-Servian Power 5
+Grove Power 5
 $Comp
 L Device:R R6
 U 1 1 61545907

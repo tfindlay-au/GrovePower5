@@ -1,4 +1,4 @@
-# Servian Power 5
+# Grove Power 5
 
 ### Overview
 This project provides a schematic to build a 5v power source for Grove devices.
@@ -24,6 +24,7 @@ Estimated Costs
 ### Changes
 - v0.2: Second release
   - Reduced the size of the board, removed locating holes
+  - Renamed to Grove Power 5
 - v0.1: First release
   - Minor fix to footprint for L1
 
